@@ -57,13 +57,17 @@ Supported features:
 
 - Estimate probabilities of phonological classes for audio files
 
-`Code <phonet_posteriors.py>`_
+Script is called as follows
+
+    python phonet_posteriors.py <file_or_folder_audio> <file_features> <static (true or false)> <plots (true or false)> <format (csv, txt, npy, torch)>
+
+`Code <phonet/phonet_posteriors.py>`_
 
 
 Training
 ====================================
 
-If you want to train Phonet in your own language, or specific phonological classes that are not defined here, please refer to the folder `train <https://github.com/valentinajaramillor/phonet_bp/tree/master/train>`_ and follow the instructions there.
+If you want to train Phonet in your own language, or specific phonological classes that are not defined here, please refer to the folder `train <https://github.com/valentinajaramillor/phonet_bp/tree/master/phonet/train>`_ and follow the instructions there.
 
 
 
