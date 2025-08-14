@@ -60,6 +60,8 @@ The results a re similar to the obtained in the original paper. However, this ve
 
 ```python main_train_RNN_MT.py <path_seq_train>  <path_seq_test_test> <path_results>```
 
+**Note:** A modified version `main_train_RNN_MT_mod.py` is available with progress caching functionality that can be used if needed.
+
 Example
 
 ```python main_train_RNN_MT.py ../seq_train/ ../seq_test/ ../results/MT_test/```
@@ -68,5 +70,7 @@ Example
 7. Additionally, you can train the model for phoneme recognition, using ```main_train_RNN_phoneme.py```
 
 ```python main_train_RNN_phoneme.py <path_seq_train>  <path_seq_test_test> <path_results>```
+
+**Note:** A modified version `main_train_RNN_phoneme_mod.py` is available with progress caching functionality that can be used if needed.
 
 
