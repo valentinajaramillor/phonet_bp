@@ -30,7 +30,7 @@ Phonemes should be written in XAMPA symbols
 
 The ```textgrid``` files should be ```PRAAT``` labeled files with Xampa symbols.
 
-You can obtain them using the [WebMAUS forced alignemt tool](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic)
+You can obtain them using the [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html)
 
 Once you have the textgrid, you can use the following script.
 
